@@ -1,0 +1,188 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    width: 100%;
+    min-height: 10vh;
+    background-color: #01518e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+section.logo{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+section.logo div p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+section.items{
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+article.header{
+    width: 100%;
+    min-height: 90vh;
+    background-image: url(../IMG/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article div{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+article div h1.ti{
+    color: white;
+    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 5em;
+    margin-bottom: 15px;
+}
+
+article div p.log{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+article div a.ini{
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 16px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article.game{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #01518e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.titulo{
+    width: 100%;
+    min-height: 20vh;
+    color: white;
+    font-size: 2em ;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+div.caja{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contenido{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+div.data, div.data2{
+    width: 50%;
+    padding: 15px;
+}
+
+div.ilus{
+    width: 50%;
+}
+
+div.data p{
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.ilus img{
+    width: 300px;
+}
+
+article.game2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.titulo2 h1{
+    color: black;
+    font-size: 4em;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+div.data2 p{
+    color: black;
+    font-size: 1.2em;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
